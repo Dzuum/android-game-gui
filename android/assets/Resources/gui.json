@@ -1,0 +1,49 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    default-font: { file: BerlinSans.fnt }
+  },
+  com.badlogic.gdx.graphics.Color: {
+    black: { a: 1, b: 0,   g: 0,   r: 0 },
+    gray:  { a: 1, b: 0.5, g: 0.5, r: 0.5 },
+    white: { a: 1, b: 1,   g: 1,   r: 1 },
+    red: { a: 1, b: 0, g: 0, r: 1 }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: { font: default-font, fontColor: black },
+    warning: { font: default-font, fontColor: red }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    arrowDown: { up: ArrowDownUp, down: ArrowDownDown },
+    arrowLeft: { up: ArrowLeftUp, down: ArrowLeftDown },
+    arrowRight: { up: ArrowRightUp, down: ArrowRightDown },
+    arrowUp: { up: ArrowUpUp, down: ArrowUpDown },
+    arrowLeft30: { up: ArrowLeftUp30, down: ArrowLeftDown30 },
+    arrowRight30: { up: ArrowRightUp30, down: ArrowRightDown30 },
+    arrowLeft60: { up: ArrowLeftUp60, down: ArrowLeftDown60 },
+    arrowRight60: { up: ArrowRightUp60, down: ArrowRightDown60 },
+    optionsGear: { up: GearUp, down: GearDown, disabled: GearDown },
+    windowClose: { up: WindowCloseUp, down: WindowCloseDown },
+    citadel: { up: CitadelUp, down: CitadelDown },
+    area: { up: AreaUp, down: AreaDown }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+    default: { up: ButtonUp, down: ButtonDown, disabled: ButtonDown },
+    slot:    { up: SlotUp, down: SlotDown, disabled: SlotDown }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: { up: ButtonUp, down: ButtonDown, disabled: ButtonDown, font: default-font, fontColor: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+    default: { up: ButtonUp, down: ButtonDown, disabled: ButtonDown, font: default-font, fontColor: black },
+    brown: { up: ButtonBrownUp, down: ButtonBrownDown, disabled: ButtonBrownDown, font: default-font, fontColor: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+    default: { background: Window, titleFont: default-font, titleFontColor: black },
+    noTitle: { background: Window2, titleFont: default-font, titleFontColor: black },
+    brown: { background: WindowBrown, titleFont: default-font, titleFontColor: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+    optionSliderOn: { background: SliderBackgroundOn, knob: KnobUp, knobDown: KnobDown }
+    optionSliderOff: { background: SliderBackgroundOff, knob: KnobUp, knobDown: KnobDown }
+  }
+}
