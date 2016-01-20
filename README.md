@@ -9,10 +9,10 @@ During the I learned how to operate the <b>LibGDX</b> library and some <b>Androi
 
 <h2>Screenshots</h2>
 Map view. This is the default starting view.
-![Start of the game](Screenshots/Screenshot 1.png)<br><br>
+![Start of the game](Screenshots/Screenshot_1.png)<br><br>
 Options. Changes reflect immediately in the GUI.
-![Options](Screenshots/Screenshot 2.png)<br><br>
+![Options](Screenshots/Screenshot_2.png)<br><br>
 Unit Editing. The battles are fought will self-created units.
-![Unit editing](Screenshots/Screenshot 3.png)<br><br>
+![Unit editing](Screenshots/Screenshot_3.png)<br><br>
 Battle view. Viewing next round's enemy info.
-![Battle view](Screenshots/Screenshot 4.png)
+![Battle view](Screenshots/Screenshot_4.png)
