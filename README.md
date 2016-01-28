@@ -3,10 +3,11 @@
 
 
 <h2>About</h2>
-The beginning of an Android game, programmed for the course UI Programming during the <b>autumn of 2015</b>. In the <b>Runnable</b> folder you can find a runnable <b>JAR</b> file of the <b>desktop</b> version.
-
-<br>Includes no real gameplay, just the initial GUI with working unit creation and settings. The vision of the game is a hybrid of tower defense, real-time strategy and role-playing game. At the moment no real game logic is present.<br><br>
-During the creation I learned how to operate the <b>LibGDX</b> library and some <b>Android</b> things.
+In the <b>Runnable</b> folder you can find a runnable <b>JAR</b> file of the <b>desktop</b> version.
+<br>
+This is the beginning of an Android game, initially programmed for the course <i>UI Programming</i> during the <b>autumn of 2015</b>. It includes no real gameplay in a sense, just the initial GUI with working unit creation and settings. The vision of the game is a hybrid of tower defense, real-time strategy and role-playing game.
+<br><br>
+During the creation I mainly learned how to operate the <b>LibGDX</b> library. I also learned some <b>Android</b> things, like the fact that it can be problematic at times, when Android keeps apps running in the background.
 <br>
 
 
