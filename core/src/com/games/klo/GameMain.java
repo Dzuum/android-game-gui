@@ -16,7 +16,7 @@ import com.games.klo.ui.windows.UIOverlay;
 
 public class GameMain extends Game {
 
-    public static final boolean DEBUG = true;
+    public static final boolean DEBUG = false;
 
     private GameState gameState;
 
